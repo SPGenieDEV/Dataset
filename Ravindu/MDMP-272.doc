@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#MDMP-272] 2.27 | MDMP | DM Module(Device Users) | Download subscriber profile</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://support.omobio.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [MDMP-272]&nbsp;<a href="https://support.omobio.net/browse/MDMP-272">2.27 | MDMP | DM Module(Device Users) | Download subscriber profile</a>
+            <span class="subText">
+               Created: 11/Jan/22                   &nbsp;Updated: 26/May/22
+
+                                                    &nbsp;Resolved: 26/May/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">DONE</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://support.omobio.net/secure/BrowseProject.jspa?id=15003">Mobile Device Management Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="MDM - V1.0.0 - Dialog - MDM Platform"
+                href="https://support.omobio.net/issues/?jql=project%3D15003%20AND%20%22fixVersion%22%3D14702%20ORDER%20BY%20priority%20ASC"
+            >MDM - V1.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="medani.g" id="word_reporter_medani.g" href="https://support.omobio.net/secure/ViewProfile.jspa?name=medani.g">Medani Gunathilaka</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="pathumi.u" id="word_assignee_pathumi.u" href="https://support.omobio.net/secure/ViewProfile.jspa?name=pathumi.u">Pathumi Uduwana</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-156720-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MDMP_Milestone01                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 day, 30 minutes
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 day, 30 minutes
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 2 hours, 42 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            0 minutes
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            3 days
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    2.26-1.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    2.26-1.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Search subscriber.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Select subscriber.PNG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-Tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-374">MDMP-374</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-374">2.27.1 | MDMP | DM Module(Device User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Anuki De Alwis  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-375">MDMP-375</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-375">2.27.2 | MDMP | DM Module(Device User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Chanduka Samarasinghe   &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-376">MDMP-376</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-376">2.27.3 | MDMP | DM Module(Device User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-377">MDMP-377</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-377">2.27.4 | MDMP | DM Module(Device User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Kavindu Wanasekara  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-378">MDMP-378</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-378">2.27.5 | MDMP | DM Module(Device User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Kanishka Hettiarachchi  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-379">MDMP-379</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-379">2.27.6 | MDMP | DM Module(Device User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Due Date:</b></td>
+                <td id="customfield_10300-156720-value" class="value" bgcolor="#ffffff" width="80%">            <span title="25/May/22 10:54 PM"><time class="livestamp allow-future" datetime="2022-05-25T22:54:00+0530">25/May/22 10:54 PM</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10002-156720-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-8" href="https://support.omobio.net/browse/MDMP-11">
+        2 | MDMP | Device Management Module
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10001-156720-value" class="value" bgcolor="#ffffff" width="80%">MDMP Sprint 1.0</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1) User Story/Detail</b></p>
+
+<p>(2.27) As the tech lead, I should be able to download the subscriber profile.</p>
+
+<p><ins><b>Task Summary</b></ins></p>
+<ul>
+	<li>Download subscriber profile.</li>
+</ul>
+
+
+<hr />
+<p><b>2) Acceptance Criteria</b></p>
+<ol>
+	<li>Searched profile data can be downloaded by clicking on the download button.                    </li>
+</ol>
+
+
+<hr />
+<p><b>3) References</b></p>
+
+<p><b><ins>(3.1) UI/UX Reference</ins></b></p>
+<ul>
+	<li>Screen 01-Download subscriber profile              URL for the UI-<a href="https://www.figma.com/file/pxUtfkJdPGwkielTY3oS6S/MDMS-Device-Management-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDMS-Device Management team library – Figma</a></li>
+</ul>
+
+
+<p>   <span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/367597/367597_2.26-1.PNG" height="485" width="730" style="border: 0px solid black" /></span></p>
+
+<p><b>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b></p>
+
+<p><b><ins>(3.2) Developer Notes</ins></b></p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+
+<p><b><ins>(3.3) Requirement Reference</ins></b></p>
+<ul>
+	<li>Requirement received from Subhash</li>
+	<li>Documents submitted for RFQ</li>
+	<li>SoW submitted by Dialog</li>
+	<li>Live demo of the existing product</li>
+</ul>
+
+
+<hr />
+<p><b>4) Definition of Ready</b></p>
+<ol>
+	<li>Requirement Validity - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Finalized Acceptance Criteria -<b>N/A</b>   </li>
+	<li>Dependency Clearance -<img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Story Confirmation -<img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/>   </li>
+</ol>
+
+
+<hr />
+<p><b>5) Definition of Done</b></p>
+<ol>
+	<li>Produced code for required functionalities</li>
+	<li>Peer Code Review and Developer Testing performed</li>
+	<li>The project builds without errors</li>
+	<li>Test cases are written and passing</li>
+	<li>QA was performed &amp; issues resolved</li>
+	<li>The feature is tested against acceptance criteria</li>
+	<li>Feature tested &amp; accepted by Omobio BA</li>
+	<li>Feature accepted by Product Owner (Client)</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-2050701"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="anuki.d" id="word_commented_anuki.d" href="https://support.omobio.net/secure/ViewProfile.jspa?name=anuki.d">Anuki De Alwis (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">07/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2050701"><td bgcolor="#ffffff">
+            <p><b>API Description</b></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+http:<span class="code-comment">//localhost:1234/web/index.php/device/subscriber/download-list</span>
+</pre>
+</div></div>
+<p>This post request has 5 inputs. </p>
+
+<p><em>example for inputs:</em></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+<span class="code-quote">"imsi"</span>:<span class="code-quote">"001"</span>,
+<span class="code-quote">"msisdn"</span>:<span class="code-keyword">null</span>,
+<span class="code-quote">"imei"</span>:<span class="code-keyword">null</span>,
+<span class="code-quote">"billing_type"</span>:2,
+<span class="code-quote">"status"</span>:1
+}</pre>
+</div></div>
+<p>The output will return a number called "status_rec" for further use.</p>
+        </td></tr>
+            </table>
+Generated at Mon Nov 14 20:26:10 IST 2022 by Medani Gunathilaka using JIRA 7.3.0#73011-sha1:3c73d0e0b5ea20e2128531b9adf9b0585752b90a.
+
+</body>
+</html>

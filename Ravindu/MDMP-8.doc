@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#MDMP-8] 3.2 | MDMP | Accounts Module | User add/edit/delete/lock/unlock</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://support.omobio.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [MDMP-8]&nbsp;<a href="https://support.omobio.net/browse/MDMP-8">3.2 | MDMP | Accounts Module | User add/edit/delete/lock/unlock</a>
+            <span class="subText">
+               Created: 09/Jan/22                   &nbsp;Updated: 29/May/22
+
+                                                    &nbsp;Resolved: 12/May/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">DONE</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://support.omobio.net/secure/BrowseProject.jspa?id=15003">Mobile Device Management Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="MDM - V1.0.0 - Dialog - MDM Platform"
+                href="https://support.omobio.net/issues/?jql=project%3D15003%20AND%20%22fixVersion%22%3D14702%20ORDER%20BY%20priority%20ASC"
+            >MDM - V1.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="medani.g" id="word_reporter_medani.g" href="https://support.omobio.net/secure/ViewProfile.jspa?name=medani.g">Medani Gunathilaka</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="pathumi.u" id="word_assignee_pathumi.u" href="https://support.omobio.net/secure/ViewProfile.jspa?name=pathumi.u">Pathumi Uduwana</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-156398-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MDMP_Milestone01                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            2 weeks, 2 days, 1 hour
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            4 hours
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            2 weeks
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-2022-01-11-14-30-30-458.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-2022-01-11-14-30-39-316.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-2022-01-11-14-30-51-039.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-2022-01-11-14-31-00-255.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-2022-01-11-14-31-12-132.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-2022-01-11-14-31-23-054.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-2022-01-11-14-31-34-320.png &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    image-2022-01-11-14-31-45-594.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-666">
+                     <strike>MDMP-666</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Account Module | User | The up...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-667">
+                     <strike>MDMP-667</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Account Module | User | There ...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-711">
+                     <strike>MDMP-711</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Account Module | Mobile Respon...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-712">
+                     <strike>MDMP-712</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Account Module | Mobile Respon...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-Tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-58">MDMP-58</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-58">3.2.1 | MDMP | Accounts Module | User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Anuki De Alwis  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-59">MDMP-59</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-59">3.2.2 | MDMP | Accounts Module | User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Kasun Edward  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-60">MDMP-60</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-60">3.2.3 | MDMP | Accounts Module | User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathmika Weerarathna  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-61">MDMP-61</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-61">3.2.4 | MDMP | Accounts Module | User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Umesha Ramanayake  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-62">MDMP-62</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-62">3.2.5 | MDMP | Accounts Module | User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-63">MDMP-63</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-63">3.2.6 | MDMP | Accounts Module | User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-64">MDMP-64</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-64">3.2.7 | MDMP | Accounts Module | User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-65">MDMP-65</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-65">3.2.8 | MDMP | Accounts Module | User...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Due Date:</b></td>
+                <td id="customfield_10300-156398-value" class="value" bgcolor="#ffffff" width="80%">            <span title="11/May/22 6:00 PM"><time class="livestamp allow-future" datetime="2022-05-11T18:00:00+0530">11/May/22 6:00 PM</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10002-156398-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-6" href="https://support.omobio.net/browse/MDMP-6">
+        3 | MDMP | Accounts Module
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10001-156398-value" class="value" bgcolor="#ffffff" width="80%">MDMP Sprint 1, MDMP Sprint 1.0</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1) User Story/Detail</b></p>
+
+<p>(3.2) As an MDM system user, I should be able to add/edit/delete/lock users.</p>
+
+<p><ins><b>Task Summary</b></ins></p>
+<ul>
+	<li>User add/edit/delete/lock</li>
+</ul>
+
+
+<hr />
+<p><b>2) Acceptance Criteria</b></p>
+<ol>
+	<li>The users' details should be displayed in a table.                               </li>
+	<li>The system user should be able to filter the table details from the username and user role. User roles can be selected via a drop-down. </li>
+	<li>Only First name, last name, and role should be editable. The username should not be editable.</li>
+</ol>
+
+
+<hr />
+<p><b>3) References</b></p>
+
+<p><b><ins>(3.1) UI/UX Reference</ins></b></p>
+<ul>
+	<li>Screen 01-Users screen        URL for the UI-<a href="https://www.figma.com/file/sLuVTcrGj7wh6iExyB8IrK/MDM-Account-Section-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Account Section team library – Figma</a></li>
+</ul>
+
+
+<p>   <span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/360485/360485_image-2022-01-11-14-30-30-458.png" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 02-Add users            URL for the UI-<a href="https://www.figma.com/file/sLuVTcrGj7wh6iExyB8IrK/MDM-Account-Section-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Account Section team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/360486/360486_image-2022-01-11-14-30-39-316.png" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 03-Edit users              URL for the UI-<a href="https://www.figma.com/file/sLuVTcrGj7wh6iExyB8IrK/MDM-Account-Section-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Account Section team library – Figma</a></li>
+</ul>
+
+
+<p>   <span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/360487/360487_image-2022-01-11-14-30-51-039.png" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 04-Delete users            URL for the UI-<a href="https://www.figma.com/file/sLuVTcrGj7wh6iExyB8IrK/MDM-Account-Section-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Account Section team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/360488/360488_image-2022-01-11-14-31-00-255.png" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 05-Change password     URL for the UI-<a href="https://www.figma.com/file/sLuVTcrGj7wh6iExyB8IrK/MDM-Account-Section-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Account Section team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/360489/360489_image-2022-01-11-14-31-12-132.png" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 06-Lock users               URL for the UI-<a href="https://www.figma.com/file/sLuVTcrGj7wh6iExyB8IrK/MDM-Account-Section-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Account Section team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/360490/360490_image-2022-01-11-14-31-23-054.png" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 07-Unlock users             URL for the UI-<a href="https://www.figma.com/file/sLuVTcrGj7wh6iExyB8IrK/MDM-Account-Section-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Account Section team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/360491/360491_image-2022-01-11-14-31-34-320.png" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 08-add/remove columns    URL for the UI-<a href="https://www.figma.com/file/sLuVTcrGj7wh6iExyB8IrK/MDM-Account-Section-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Account Section team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/360492/360492_image-2022-01-11-14-31-45-594.png" style="border: 0px solid black" /></span>  </p>
+
+<p><b>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b></p>
+
+<p><b><ins>(3.2) Developer Notes</ins></b></p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+
+<p><b><ins>(3.3) Requirement Reference</ins></b></p>
+<ul>
+	<li>Requirement received from Subhash</li>
+	<li>Documents submitted for RFQ</li>
+	<li>SoW submitted by Dialog</li>
+	<li>Live demo of the existing product</li>
+</ul>
+
+
+<hr />
+<p><b>4) Definition of Ready</b></p>
+<ol>
+	<li>Requirement Validity - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Finalized Acceptance Criteria -  <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Dependency Clearance - <b>N/A</b></li>
+	<li>Story Confirmation -  <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+</ol>
+
+
+<hr />
+<p><b>5) Definition of Done</b></p>
+<ol>
+	<li>Produced code for required functionalities</li>
+	<li>Peer Code Review and Developer Testing performed</li>
+	<li>The project builds without errors</li>
+	<li>Test cases are written and passing</li>
+	<li>QA was performed &amp; issues resolved</li>
+	<li>The feature is tested against acceptance criteria</li>
+	<li>Feature tested &amp; accepted by Omobio BA</li>
+	<li>Feature accepted by Product Owner (Client)</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-1967731"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="deshan.n" id="word_commented_deshan.n" href="https://support.omobio.net/secure/ViewProfile.jspa?name=deshan.n">Deshan Navaratne (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">26/Jan/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-1967731"><td bgcolor="#ffffff">
+            <p>Testbed server pending from Dialog</p>
+        </td></tr>
+                <tr id="comment-header-2050848"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="anuki.d" id="word_commented_anuki.d" href="https://support.omobio.net/secure/ViewProfile.jspa?name=anuki.d">Anuki De Alwis (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">07/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2050848"><td bgcolor="#ffffff">
+            <p><b>API Description</b></p>
+
+<p> </p>
+
+<p><font color="#205081"><em><b>read users:</b></em></font></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+http:<span class="code-comment">//localhost:1234/web/index.php/account/user/read</span>
+</pre>
+</div></div>
+<p>no inputs are required.</p>
+
+<p> </p>
+
+<p><font color="#205081"><em><b>add user:</b></em></font></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+http:<span class="code-comment">//localhost:1234/web/index.php/account/user/create</span>
+</pre>
+</div></div>
+<p>inputs are as follows</p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+    <span class="code-quote">"username"</span>:<span class="code-quote">"TestUser"</span>,
+    <span class="code-quote">"password"</span>:<span class="code-quote">"MdmPass123"</span>,
+    <span class="code-quote">"role_id"</span>:<span class="code-quote">"1"</span>,
+    <span class="code-quote">"email"</span>:<span class="code-quote">"testuser@gmail.com"</span>,
+    <span class="code-quote">"first_name"</span>: <span class="code-quote">"userFirstName"</span>,
+    <span class="code-quote">"last_name"</span>: <span class="code-quote">"userSecondName"</span>,
+    <span class="code-quote">"description"</span>: <span class="code-keyword">null</span>,
+    <span class="code-quote">"mobile_no"</span>: <span class="code-quote">"0777112233"</span>
+}
+</pre>
+</div></div>
+<p> </p>
+
+<p><font color="#205081"><em><b>update user:</b></em></font></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+http:<span class="code-comment">//localhost:1234/web/index.php/account/user/create</span>
+</pre>
+</div></div>
+<p>user can be updated using user/create API with the additional input "id".</p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+    <span class="code-quote">"id"</span>:<span class="code-quote">"3"</span>,
+    <span class="code-quote">"username"</span>:<span class="code-quote">"TestUser"</span>,
+    <span class="code-quote">"password"</span>:<span class="code-quote">"MdmPass123"</span>,
+    <span class="code-quote">"role_id"</span>:<span class="code-quote">"1"</span>,
+    <span class="code-quote">"email"</span>:<span class="code-quote">"testuser@gmail.com"</span>,
+    <span class="code-quote">"first_name"</span>: <span class="code-quote">"userFirstName"</span>,
+    <span class="code-quote">"last_name"</span>: <span class="code-quote">"userSecondName"</span>,
+    <span class="code-quote">"description"</span>: <span class="code-keyword">null</span>,
+    <span class="code-quote">"mobile_no"</span>: <span class="code-quote">"0777112233"</span>
+}
+</pre>
+</div></div>
+<p> </p>
+
+<p><font color="#205081"><em><b>delete user:</b></em></font></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+http:<span class="code-comment">//localhost:1234/web/index.php/account/user/delete</span>
+</pre>
+</div></div>
+<p>user can be deleted by giving input "id".</p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+    <span class="code-quote">"id"</span>:<span class="code-quote">"12"</span>
+}
+</pre>
+</div></div>
+<p> </p>
+
+<p> </p>
+
+<p><font color="#205081"><em><b>unlock user:</b></em></font></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+http:<span class="code-comment">//localhost:1234/web/index.php/account/user/unlock</span>
+</pre>
+</div></div>
+<p>user can be unlocked by giving input "id".</p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+    <span class="code-quote">"id"</span>:<span class="code-quote">"3"</span>
+}
+</pre>
+</div></div>
+<p> </p>
+
+<p><font color="#205081"><em><b>lock user:</b></em></font></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+http:<span class="code-comment">//localhost:1234/web/index.php/account/user/lock</span>
+</pre>
+</div></div>
+<p>user can be locked by giving input "id".</p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+    <span class="code-quote">"id"</span>:<span class="code-quote">"3"</span>
+}
+</pre>
+</div></div>
+<p> </p>
+        </td></tr>
+                <tr id="comment-header-2056160"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="deshan.n" id="word_commented_deshan.n" href="https://support.omobio.net/secure/ViewProfile.jspa?name=deshan.n">Deshan Navaratne (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2056160"><td bgcolor="#ffffff">
+            <p>As per <a href="https://support.omobio.net/secure/ViewProfile.jspa?name=kasun" class="user-hover" rel="kasun">Kasun Edward</a>s feedback, <br/>
+<a href="https://support.omobio.net/secure/ViewProfile.jspa?name=sumith" class="user-hover" rel="sumith">Sumith Gamage</a> and <a href="https://support.omobio.net/secure/ViewProfile.jspa?name=shehan" class="user-hover" rel="shehan">Shehan Alawatta</a> has taken the resource back to Dialog.lk Self Care project for 2 weeks from tomorrow onwards. <br/>
+Start : 9th Feb 2022<br/>
+Finish : 23rd Feb 2022</p>
+
+<p>Dependencies of the Delaying project will be absorbed due to the Client Testbed Delay. <br/>
+Need to thoroughly communicate the Delivery Extention to Indika from Omobio Level. </p>
+        </td></tr>
+            </table>
+Generated at Mon Nov 14 20:53:51 IST 2022 by Medani Gunathilaka using JIRA 7.3.0#73011-sha1:3c73d0e0b5ea20e2128531b9adf9b0585752b90a.
+
+</body>
+</html>

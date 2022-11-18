@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#MDMP-608] 6.2 | MDMP | Settings Module | EIR reasons table</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://support.omobio.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [MDMP-608]&nbsp;<a href="https://support.omobio.net/browse/MDMP-608">6.2 | MDMP | Settings Module | EIR reasons table</a>
+            <span class="subText">
+               Created: 13/Jan/22                   &nbsp;Updated: 12/May/22
+
+                                                    &nbsp;Resolved: 12/May/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">DONE</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://support.omobio.net/secure/BrowseProject.jspa?id=15003">Mobile Device Management Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="MDM - V1.0.0 - Dialog - MDM Platform"
+                href="https://support.omobio.net/issues/?jql=project%3D15003%20AND%20%22fixVersion%22%3D14702%20ORDER%20BY%20priority%20ASC"
+            >MDM - V1.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="medani.g" id="word_reporter_medani.g" href="https://support.omobio.net/secure/ViewProfile.jspa?name=medani.g">Medani Gunathilaka</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="pathumi.u" id="word_assignee_pathumi.u" href="https://support.omobio.net/secure/ViewProfile.jspa?name=pathumi.u">Pathumi Uduwana</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-157154-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MDMP_Milestone01                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 day, 4 hours, 30 minutes
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 1 day, 5 hours, 48 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 3 hours, 12 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Add EIR reasons.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EIR Reasons.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Edit EIR  Reasons.PNG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-Tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-609">MDMP-609</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-609">6.2.1 | MDMP | Settings Module | EIR ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Kasun Edward  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-610">MDMP-610</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-610">6.2.2 | MDMP | Settings Module | EIR ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     K.M Subhash Rodrigo  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-615">MDMP-615</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-615">6.2.3 | MDMP | Settings Module | EIR ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Maduranga Kodithuwakku  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-616">MDMP-616</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-616">6.2.4 | MDMP | Settings Module | EIR ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Umesha Ramanayake  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-611">MDMP-611</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-611">6.2.5 | MDMP | Settings Module | EIR ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-612">MDMP-612</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-612">6.2.6 | MDMP | Settings Module | EIR ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-613">MDMP-613</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-613">6.2.7 | MDMP | Settings Module | EIR ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-614">MDMP-614</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-614">6.2.8 | MDMP | Settings Module | EIR ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Due Date:</b></td>
+                <td id="customfield_10300-157154-value" class="value" bgcolor="#ffffff" width="80%">            <span title="11/May/22 6:00 PM"><time class="livestamp allow-future" datetime="2022-05-11T18:00:00+0530">11/May/22 6:00 PM</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10002-157154-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-5" href="https://support.omobio.net/browse/MDMP-253">
+        6 | MDMP | Settings Module
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10001-157154-value" class="value" bgcolor="#ffffff" width="80%">MDMP Sprint 1.0</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1) User Story/Detail</b></p>
+
+<p>(6.2) As an MDM system user, I should be able to view, add, and edit EIR reasons.</p>
+
+<p><ins><b>Task Summary</b></ins></p>
+<ul>
+	<li>View, add, and edit operations in the EIR reasons table. </li>
+</ul>
+
+
+<hr />
+<p><b>2) Acceptance Criteria</b> </p>
+<ol>
+	<li>The details of EIR Reasons should be displayed in a table. </li>
+	<li>The system user should be able to add new records to the EIR reasons table.(code,description,colour)            </li>
+	<li>The system user should be able to add or remove columns in the table.</li>
+	<li>An existing record should be selected to edit the details in the EIR reasons screen.</li>
+	<li>Description and color column data of an existing record can be editable as inline text in the EIR reasons screen.   </li>
+</ol>
+
+
+<hr />
+<p><b>3) References</b></p>
+
+<p><b><ins>(3.1) UI/UX Reference</ins></b></p>
+
+<p> </p>
+<ul>
+	<li>Screen 01-EIR reasons table              URL for the UI-<a href="https://www.figma.com/file/8lkQAix9AF2cc5RKvCAFXq/MDMS-Settings-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDMS-Settings team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/361162/361162_EIR+Reasons.PNG" height="400" width="599" style="border: 0px solid black" /></span></p>
+
+<p> </p>
+<ul>
+	<li>Screen 02-Add new records to EIR reasons table       URL for the UI-<a href="https://www.figma.com/file/8lkQAix9AF2cc5RKvCAFXq/MDMS-Settings-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDMS-Settings team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/361163/361163_Add+EIR+reasons.PNG" height="397" width="601" style="border: 0px solid black" /></span></p>
+
+<p> </p>
+<ul>
+	<li>Screen 03- Edit EIR reasons table              URL for the UI-<a href="https://www.figma.com/file/8lkQAix9AF2cc5RKvCAFXq/MDMS-Settings-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDMS-Settings team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/361164/361164_Edit+EIR++Reasons.PNG" height="404" width="612" style="border: 0px solid black" /></span></p>
+
+<p> </p>
+
+<p><b>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b></p>
+
+<p><b><ins>(3.2) Developer Notes</ins></b></p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+
+<p><b><ins>(3.3) Requirement Reference</ins></b></p>
+<ul>
+	<li>Requirement received from Subhash</li>
+	<li>Documents submitted for RFQ</li>
+	<li>SoW submitted by Dialog</li>
+	<li>Live demo of the existing product</li>
+</ul>
+
+
+<hr />
+<p><b>4) Definition of Ready</b></p>
+<ol>
+	<li>Requirement Validity - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Finalized Acceptance Criteria - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Dependency Clearance - <b>N/A</b></li>
+	<li>Story Confirmation - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+</ol>
+
+
+<hr />
+<p><b>5) Definition of Done</b></p>
+<ol>
+	<li>Produced code for required functionalities</li>
+	<li>Peer Code Review and Developer Testing performed</li>
+	<li>The project builds without errors</li>
+	<li>Test cases are written and passing</li>
+	<li>QA was performed &amp; issues resolved</li>
+	<li>The feature is tested against acceptance criteria</li>
+	<li>Feature tested &amp; accepted by Omobio BA</li>
+	<li>Feature accepted by Product Owner (Client)</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Mon Nov 14 20:58:34 IST 2022 by Medani Gunathilaka using JIRA 7.3.0#73011-sha1:3c73d0e0b5ea20e2128531b9adf9b0585752b90a.
+
+</body>
+</html>

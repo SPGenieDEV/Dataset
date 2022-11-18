@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#MDMP-276] 2.33 | MDMP | DM Module(View Device) | View available device configurations for the device</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://support.omobio.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [MDMP-276]&nbsp;<a href="https://support.omobio.net/browse/MDMP-276">2.33 | MDMP | DM Module(View Device) | View available device configurations for the device</a>
+            <span class="subText">
+               Created: 11/Jan/22                   &nbsp;Updated: 26/May/22
+
+                                                    &nbsp;Resolved: 26/May/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">DONE</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://support.omobio.net/secure/BrowseProject.jspa?id=15003">Mobile Device Management Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="MDM - V1.0.0 - Dialog - MDM Platform"
+                href="https://support.omobio.net/issues/?jql=project%3D15003%20AND%20%22fixVersion%22%3D14702%20ORDER%20BY%20priority%20ASC"
+            >MDM - V1.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="medani.g" id="word_reporter_medani.g" href="https://support.omobio.net/secure/ViewProfile.jspa?name=medani.g">Medani Gunathilaka</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="pathumi.u" id="word_assignee_pathumi.u" href="https://support.omobio.net/secure/ViewProfile.jspa?name=pathumi.u">Pathumi Uduwana</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-156724-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MDMP_Milestone01                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            4 hours
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            3 days, 4 hours, 12 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            4 days
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    2.33.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Configuration.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    change-blacklist-status.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    get models for brand.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    get-details.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    get-details.json &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    get_models_for_brand.json &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    update-blacklist-status.json &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    update-details.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File">
+                    update-details.json &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-Tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-402">MDMP-402</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-402">2.33.1 | MDMP | DM Module(View Device...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Kasun Edward  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-403">MDMP-403</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-403">2.33.2 | MDMP | DM Module(View Device...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Lasantha Kasun  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-404">MDMP-404</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-404">2.33.3 | MDMP | DM Module(View Device...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Umesha Ramanayake  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-405">MDMP-405</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-405">2.33.4 | MDMP | DM Module(View Device...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-406">MDMP-406</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-406">2.33.5 | MDMP | DM Module(View Device...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-407">MDMP-407</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-407">2.33.6 | MDMP | DM Module(View Device...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Kanishka Hettiarachchi  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-408">MDMP-408</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-408">2.33.7 | MDMP | DM Module(View Device...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Due Date:</b></td>
+                <td id="customfield_10300-156724-value" class="value" bgcolor="#ffffff" width="80%">            <span title="25/May/22 6:00 PM"><time class="livestamp allow-future" datetime="2022-05-25T18:00:00+0530">25/May/22 6:00 PM</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10002-156724-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-8" href="https://support.omobio.net/browse/MDMP-11">
+        2 | MDMP | Device Management Module
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10001-156724-value" class="value" bgcolor="#ffffff" width="80%">MDMP Sprint 1.0</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1) User Story/Detail</b></p>
+
+<p>(2.33) As an MDM system user, I should be able to view available configurations for the device.</p>
+
+<p><ins><b>Task Summary</b></ins></p>
+<ul>
+	<li>View available device configurations.</li>
+</ul>
+
+
+<hr />
+<p><b>2) Acceptance Criteria</b></p>
+<ol>
+	<li>The system user should be able to view configuration details and send configuration details by clicking on the configuration tab.                    </li>
+</ol>
+
+
+<hr />
+<p><b>3) References</b></p>
+
+<p><b><ins>(3.1) UI/UX Reference</ins></b></p>
+<ul>
+	<li>Screen 01- configuration screen           URL for the UI-<a href="https://www.figma.com/file/pxUtfkJdPGwkielTY3oS6S/MDMS-Device-Management-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDMS-Device Management team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/367608/367608_2.33.PNG" height="452" width="679" style="border: 0px solid black" /></span></p>
+
+<p><b>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b></p>
+
+<p><b><ins>(3.2) Developer Notes</ins></b></p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+
+<p><b><ins>(3.3) Requirement Reference</ins></b></p>
+<ul>
+	<li>Requirement received from Subhash</li>
+	<li>Documents submitted for RFQ</li>
+	<li>SoW submitted by Dialog</li>
+	<li>Live demo of the existing product</li>
+</ul>
+
+
+<hr />
+<p><b>4) Definition of Ready</b></p>
+<ol>
+	<li>Requirement Validity - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Finalized Acceptance Criteria - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/>  </li>
+	<li>Dependency Clearance - <b>N/A</b></li>
+	<li>Story Confirmation -  <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/> </li>
+</ol>
+
+
+<hr />
+<p><b>5) Definition of Done</b></p>
+<ol>
+	<li>Produced code for required functionalities</li>
+	<li>Peer Code Review and Developer Testing performed</li>
+	<li>The project builds without errors</li>
+	<li>Test cases are written and passing</li>
+	<li>QA was performed &amp; issues resolved</li>
+	<li>The feature is tested against acceptance criteria</li>
+	<li>Feature tested &amp; accepted by Omobio BA</li>
+	<li>Feature accepted by Product Owner (Client)</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-2057548"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="kasun" id="word_commented_kasun" href="https://support.omobio.net/secure/ViewProfile.jspa?name=kasun">Kasun Edward (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2057548"><td bgcolor="#ffffff">
+            <p>---get details &#8212;</p>
+
+<p><span class="image-wrap" style=""><a id="368608_thumb" href="https://support.omobio.net/secure/attachment/368608/368608_get-details.PNG" title="get-details.PNG" file-preview-type="image" file-preview-id="368608" file-preview-title="get-details.PNG"><img src="https://support.omobio.net/secure/thumbnail/368608/_thumb_368608.png" style="border: 0px solid black" /></a></span>    </p>
+
+<p><span class="nobr"><a href="https://support.omobio.net/secure/attachment/368654/368654_get-details.json" title="get-details.json attached to MDMP-276">get-details.json<sup><img class="rendericon" src="https://support.omobio.net/images/icons/link_attachment_7.gif" height="7" width="7" align="absmiddle" alt="" border="0"/></sup></a></span></p>
+
+<p>---Change blacklist status &#8212;</p>
+
+<p><span class="image-wrap" style=""><a id="368607_thumb" href="https://support.omobio.net/secure/attachment/368607/368607_change-blacklist-status.PNG" title="change-blacklist-status.PNG" file-preview-type="image" file-preview-id="368607" file-preview-title="change-blacklist-status.PNG"><img src="https://support.omobio.net/secure/thumbnail/368607/_thumb_368607.png" style="border: 0px solid black" /></a></span></p>
+
+<p><span class="nobr"><a href="https://support.omobio.net/secure/attachment/368655/368655_update-blacklist-status.json" title="update-blacklist-status.json attached to MDMP-276">update-blacklist-status.json<sup><img class="rendericon" src="https://support.omobio.net/images/icons/link_attachment_7.gif" height="7" width="7" align="absmiddle" alt="" border="0"/></sup></a></span></p>
+
+<p> </p>
+
+<p>--Update details ----</p>
+
+<p><span class="image-wrap" style=""><a id="368609_thumb" href="https://support.omobio.net/secure/attachment/368609/368609_update-details.PNG" title="update-details.PNG" file-preview-type="image" file-preview-id="368609" file-preview-title="update-details.PNG"><img src="https://support.omobio.net/secure/thumbnail/368609/_thumb_368609.png" style="border: 0px solid black" /></a></span></p>
+
+<p><span class="nobr"><a href="https://support.omobio.net/secure/attachment/368656/368656_update-details.json" title="update-details.json attached to MDMP-276">update-details.json<sup><img class="rendericon" src="https://support.omobio.net/images/icons/link_attachment_7.gif" height="7" width="7" align="absmiddle" alt="" border="0"/></sup></a></span></p>
+
+<p> </p>
+
+<p> </p>
+        </td></tr>
+                <tr id="comment-header-2070149"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="kasun" id="word_commented_kasun" href="https://support.omobio.net/secure/ViewProfile.jspa?name=kasun">Kasun Edward (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2070149"><td bgcolor="#ffffff">
+            <p>---get models for brand &#8212;</p>
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/369439/369439_get+models+for+brand.PNG" height="88" width="348" style="border: 0px solid black" /></span></p>
+
+<p> </p>
+
+<p><span class="nobr"><a href="https://support.omobio.net/secure/attachment/369440/369440_get_models_for_brand.json" title="get_models_for_brand.json attached to MDMP-276">get_models_for_brand.json<sup><img class="rendericon" src="https://support.omobio.net/images/icons/link_attachment_7.gif" height="7" width="7" align="absmiddle" alt="" border="0"/></sup></a></span></p>
+        </td></tr>
+                <tr id="comment-header-2270990"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="sumith" id="word_commented_sumith" href="https://support.omobio.net/secure/ViewProfile.jspa?name=sumith">Sumith Gamage</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">12/Mar/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2270990"><td bgcolor="#ffffff">
+            <p>Good morning <a href="https://support.omobio.net/secure/ViewProfile.jspa?name=deshan.n" class="user-hover" rel="deshan.n">Deshan Navaratne</a>, most overdue task in Jira is under MDM project. <a href="https://support.omobio.net:8443/issues/?jql=status%20not%20in%20(%22Work%20Complete%22%2C%20DONE)%20AND%20project%20%3D%20MDMP%20ORDER%20BY%20cf%5B10300%5D%20ASC%2C%20priority%20DESC%2C%20updated%20DESC" class="external-link" rel="nofollow">https://support.omobio.net:8443/issues/?jql=status%20not%20in%20(%22Work%20Complete%22%2C%20DONE)%20AND%20project%20%3D%20MDMP%20ORDER%20BY%20cf%5B10300%5D%20ASC%2C%20priority%20DESC%2C%20updated%20DESC</a>. Let me know if any assistance is needed in following this project on Jira.</p>
+        </td></tr>
+            </table>
+Generated at Mon Nov 14 20:26:30 IST 2022 by Medani Gunathilaka using JIRA 7.3.0#73011-sha1:3c73d0e0b5ea20e2128531b9adf9b0585752b90a.
+
+</body>
+</html>

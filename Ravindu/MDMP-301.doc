@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#MDMP-301] 7.2 | MDMP | Campaigns Module(Event Campaigns) | Event based campaign table and view option</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://support.omobio.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [MDMP-301]&nbsp;<a href="https://support.omobio.net/browse/MDMP-301">7.2 | MDMP | Campaigns Module(Event Campaigns) | Event based campaign table and view option</a>
+            <span class="subText">
+               Created: 11/Jan/22                   &nbsp;Updated: 30/May/22
+
+                                                    &nbsp;Resolved: 30/May/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">DONE</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://support.omobio.net/secure/BrowseProject.jspa?id=15003">Mobile Device Management Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="MDM - V1.0.0 - Dialog - MDM Platform"
+                href="https://support.omobio.net/issues/?jql=project%3D15003%20AND%20%22fixVersion%22%3D14702%20ORDER%20BY%20priority%20ASC"
+            >MDM - V1.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="medani.g" id="word_reporter_medani.g" href="https://support.omobio.net/secure/ViewProfile.jspa?name=medani.g">Medani Gunathilaka</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="pathumi.u" id="word_assignee_pathumi.u" href="https://support.omobio.net/secure/ViewProfile.jspa?name=pathumi.u">Pathumi Uduwana</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-156750-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MDMP_Milestone01                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            3 hours, 30 minutes
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            2 weeks, 3 days, 4 hours, 15 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 3 days, 48 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-View campaigns-state transfer API.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-add or remove columns.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-complete message icon API.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-complete message icon.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-complete.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-delete.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-view campaign static API.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-view campaign static API.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-view campaign static API.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-view campaign-state transfer.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC-view campaigns.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    EC.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Event-campaigns.PNG &nbsp;&nbsp;&nbsp;
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    View campaigns state transfer.PNG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-738">
+                     <strike>MDMP-738</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-735">
+                     <strike>MDMP-735</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-736">
+                     <strike>MDMP-736</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-737">
+                     <strike>MDMP-737</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-740">
+                     <strike>MDMP-740</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-741">
+                     <strike>MDMP-741</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-742">
+                     <strike>MDMP-742</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-743">
+                     <strike>MDMP-743</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-744">
+                     <strike>MDMP-744</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-745">
+                     <strike>MDMP-745</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-746">
+                     <strike>MDMP-746</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-747">
+                     <strike>MDMP-747</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-748">
+                     <strike>MDMP-748</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-749">
+                     <strike>MDMP-749</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-750">
+                     <strike>MDMP-750</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-751">
+                     <strike>MDMP-751</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-752">
+                     <strike>MDMP-752</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-753">
+                     <strike>MDMP-753</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-754">
+                     <strike>MDMP-754</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-755">
+                     <strike>MDMP-755</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+            <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://support.omobio.net/browse/MDMP-756">
+                     <strike>MDMP-756</strike>                 </a>
+            </td>
+            <td>
+                MDMP | Campaigns Module | Event Campa...
+            </td>
+            <td>
+                DONE
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-Tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-562">MDMP-562</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-562">7.2.1 | MDMP | Campaigns Module(Event...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     K.M Subhash Rodrigo  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-563">MDMP-563</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-563">7.2.2 | MDMP |Campaigns Module(Event ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Chanduka Samarasinghe   &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-564">MDMP-564</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-564">7.2.3 | MDMP | Campaigns Module(Event...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Umesha Ramanayake  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-565">MDMP-565</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-565">7.2.4 | MDMP | Campaigns Module(Event...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-566">MDMP-566</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-566">7.2.5 | MDMP | Campaigns Module(Event...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Anuki De Alwis  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-567">MDMP-567</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-567">7.2.6 | MDMP | Campaigns Module(Event...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Anuki De Alwis  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-568">MDMP-568</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-568">7.2.7 | MDMP | Campaigns Module(Event...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Kanishka Hettiarachchi  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Due Date:</b></td>
+                <td id="customfield_10300-156750-value" class="value" bgcolor="#ffffff" width="80%">            <span title="26/May/22 6:30 PM"><time class="livestamp allow-future" datetime="2022-05-26T18:30:00+0530">26/May/22 6:30 PM</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10002-156750-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-6" href="https://support.omobio.net/browse/MDMP-258">
+        7 | MDMP | Campaigns Module
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10001-156750-value" class="value" bgcolor="#ffffff" width="80%">MDMP Sprint 1.0</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1) User Story/Detail</b></p>
+
+<p>(7.2) As an MDM system user, I should be able to view the event-based campaign table and the view option.</p>
+
+<p><ins><b>Task Summary</b></ins></p>
+<ul>
+	<li> View event-based campaign table and view options.</li>
+</ul>
+
+
+<hr />
+<p><b>2) Acceptance Criteria</b></p>
+<ol>
+	<li>The details of the campaigns should be displayed in a table.</li>
+	<li>The system user should be able to view the campaigns by selecting a date ranger from the date picker.             </li>
+	<li>The system user should be able to filter the table details from the created user, campaign name, channel, status, and event type. </li>
+	<li>The user should be able to add or remove columns in the table. </li>
+	<li>An existing record should be selected to appear delete button on the top right corner of the table.   </li>
+	<li>Upon clicking the delete icon, the system user could be able to delete a particular incomplete campaign detail.</li>
+	<li>The system user should be able to view static, and state transfer campaigns.</li>
+	<li>The completed message of the event campaign should be viewed.                 </li>
+</ol>
+
+
+<hr />
+<p><b>3) References</b></p>
+
+<p><b><ins>(3.1) UI/UX Reference</ins></b></p>
+<ul>
+	<li>Screen 01- Event campaigns screen           URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/373674/373674_EC.PNG" height="493" width="740" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 02- Add or remove columns             URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p>  <span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/369232/369232_EC-add+or+remove+columns.PNG" height="487" width="735" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 03- Event Campaigns(incomplete)   URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p>  <span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/369233/369233_EC-complete.PNG" height="486" width="730" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 04- Delete event campaigns (incomplete)             URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p>  <span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/369234/369234_EC-delete.PNG" height="485" width="731" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 05- View campaigns  state transfer       URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/373633/373633_View+campaigns+state+transfer.PNG" height="491" width="740" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 06- View campaigns static             URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/369238/369238_EC-view+campaign+static+API.PNG" height="496" width="736" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 07- View campaigns static API             URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/369238/369238_EC-view+campaign+static+API.PNG" height="498" width="739" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 08-View campaigns state transfer API   URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/369240/369240_EC-View+campaigns-state+transfer+API.PNG" height="492" width="744" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 09-Event campaign complete message icon API   URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/373631/373631_EC-complete+message+icon+API.PNG" height="493" width="740" style="border: 0px solid black" /></span></p>
+<ul>
+	<li>Screen 10-Event campaign complete message icon   URL for the UI-URL for the UI-<a href="https://www.figma.com/file/esXf3OgxuhX3qY57DRo9ce/MDM-Campaigns-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Campaigns team library – Figma</a></li>
+</ul>
+
+
+<p>  <span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/373630/373630_EC-complete+message+icon.PNG" height="487" width="737" style="border: 0px solid black" /></span></p>
+
+<p><b>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b></p>
+
+<p><b><ins>(3.2) Developer Notes</ins></b></p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+
+<p><b><ins>(3.3) Requirement Reference</ins></b></p>
+<ul>
+	<li>Requirement received from Subhash</li>
+	<li>Documents submitted for RFQ</li>
+	<li>SoW submitted by Dialog</li>
+	<li>Live demo of the existing product</li>
+</ul>
+
+
+<hr />
+<p><b>4) Definition of Ready</b></p>
+<ol>
+	<li>Requirement Validity - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Finalized Acceptance Criteria -<img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/>   </li>
+	<li>Dependency Clearance - <b>N/A</b></li>
+	<li>Story Confirmation -<img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/>   </li>
+</ol>
+
+
+<hr />
+<p><b>5) Definition of Done</b></p>
+<ol>
+	<li>Produced code for required functionalities</li>
+	<li>Peer Code Review and Developer Testing performed</li>
+	<li>The project builds without errors</li>
+	<li>Test cases are written and passing</li>
+	<li>QA was performed &amp; issues resolved</li>
+	<li>The feature is tested against acceptance criteria</li>
+	<li>Feature tested &amp; accepted by Omobio BA</li>
+	<li>Feature accepted by Product Owner (Client)</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-2147752"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="subhash" id="word_commented_subhash" href="https://support.omobio.net/secure/ViewProfile.jspa?name=subhash">K.M Subhash Rodrigo</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">21/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2147752"><td bgcolor="#ffffff">
+            <p><b>API discription</b></p>
+<ol>
+	<li><b>events campaign read for table</b></li>
+</ol>
+
+
+<p> </p>
+
+<p>*<a href="http://localhost:1234/web/index.php/campaign/event-campaign/read*" class="external-link" rel="nofollow">http://localhost:1234/web/index.php/campaign/event-campaign/read*</a></p>
+
+<p> </p>
+
+<p><font color="#59afe1">params</font></p>
+
+<p> </p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+    <span class="code-quote">"fromDate"</span>: <span class="code-quote">"2022-02-21"</span>,
+    <span class="code-quote">"toDate"</span>: <span class="code-quote">"2022-02-22"</span>
+}</pre>
+</div></div>
+<p> </p>
+
+<p> </p>
+
+<p><b>2. event campaign View option</b></p>
+
+<p> </p>
+
+<p>*<a href="http://localhost:1234/web/index.php/campaign/event-campaign/read-details*" class="external-link" rel="nofollow">http://localhost:1234/web/index.php/campaign/event-campaign/read-details*</a></p>
+
+<p><font color="#59afe1"><b>params</b></font></p>
+
+<p> </p>
+
+<p>*{<br/>
+    "id": 1<br/>
+}*</p>
+
+<p> </p>
+
+<p> </p>
+
+<p><b>3. view event in campaign view</b></p>
+
+<p><b>show events view by passing event_id of campaign</b></p>
+
+<p> </p>
+
+<p>*<a href="http://localhost:1234/web/index.php/campaign/event/read-details*" class="external-link" rel="nofollow">http://localhost:1234/web/index.php/campaign/event/read-details*</a></p>
+
+<p><font color="#59afe1"><b>params</b></font>**</p>
+
+<p> </p>
+
+<p> </p>
+
+<p>*{<br/>
+    "id": 1<br/>
+}***</p>
+
+<p> </p>
+
+<p><b>4. Delete event campaign</b></p>
+
+<p> </p>
+
+<p>*<a href="http://localhost:1234/web/index.php/campaign/event-campaign/delete*" class="external-link" rel="nofollow">http://localhost:1234/web/index.php/campaign/event-campaign/delete*</a></p>
+
+<p> </p>
+
+<p><font color="#59afe1"><b>params</b></font><font color="#333333"><br/>
+**</font></p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+   <span class="code-quote">"id"</span>:<span class="code-quote">"1"</span>
+ }
+</pre>
+</div></div>
+<p> </p>
+        </td></tr>
+            </table>
+Generated at Mon Nov 14 20:58:53 IST 2022 by Medani Gunathilaka using JIRA 7.3.0#73011-sha1:3c73d0e0b5ea20e2128531b9adf9b0585752b90a.
+
+</body>
+</html>

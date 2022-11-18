@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#MDMP-11] 2 | MDMP | Device Management for Mobile Device Management Platform</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://support.omobio.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [MDMP-11]&nbsp;<a href="https://support.omobio.net/browse/MDMP-11">2 | MDMP | Device Management for Mobile Device Management Platform</a>
+            <span class="subText">
+               Created: 09/Jan/22                   &nbsp;Updated: 04/Nov/22
+
+                                    &nbsp;Due: 31/Oct/22
+                                                    &nbsp;Resolved: 15/Feb/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">INPROGRESS</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://support.omobio.net/secure/BrowseProject.jspa?id=15003">Mobile Device Management Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="MDM - V1.0.0 - Dialog - MDM Platform"
+                href="https://support.omobio.net/issues/?jql=project%3D15003%20AND%20%22fixVersion%22%3D14702%20ORDER%20BY%20priority%20ASC"
+            >MDM - V1.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Major Incident
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="medani.g" id="word_reporter_medani.g" href="https://support.omobio.net/secure/ViewProfile.jspa?name=medani.g">Medani Gunathilaka</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="pathumi.u" id="word_assignee_pathumi.u" href="https://support.omobio.net/secure/ViewProfile.jspa?name=pathumi.u">Pathumi Uduwana</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Client Pending
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-156401-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Name:</b></td>
+                <td id="customfield_10004-156401-value" class="value" bgcolor="#ffffff" width="80%">      2 | MDMP | Device Management Module
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Due Date:</b></td>
+                <td id="customfield_10300-156401-value" class="value" bgcolor="#ffffff" width="80%">            <span title="03/Nov/22 11:36 PM"><time class="livestamp allow-future" datetime="2022-11-03T23:36:00+0530">03/Nov/22 11:36 PM</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Device Database of Mobile Device Management Platform</b></p>
+<ol>
+	<li>Sync device data dump to device table(fields should be recognized from GSMA data dump)</li>
+	<li>Table creation</li>
+	<li>Sync fields </li>
+	<li>Identify grey market devices (based on IMEI)(not present in device database)</li>
+</ol>
+
+
+<p>-------------------------------</p>
+
+<p><b>Device Configurations of Mobile Device Management System</b></p>
+<ol>
+	<li>Configure APN</li>
+	<li>Configure MMS</li>
+	<li>Configure EMAIL</li>
+	<li>IM</li>
+	<li>Sync-ML-DS</li>
+	<li>Video streaming</li>
+	<li>Puch to talk</li>
+	<li>View device</li>
+	<li>Add device</li>
+	<li>Edit device</li>
+	<li>Generic OTA settings for unrecognized devices</li>
+</ol>
+
+
+<p>------------------------------</p>
+
+<p><b>Subscriber Profile of Mobile Device Management System</b></p>
+<ol>
+	<li>View subscriber profile</li>
+	<li>Edit subscriber profile</li>
+	<li>Download subscriber profile</li>
+	<li>Add subscriber</li>
+	<li>Daily subscriber detail dump</li>
+	<li>Share updated device dump via sftp</li>
+	<li>Device details view - Basic details</li>
+	<li>Device details view - Characteristic view</li>
+	<li>View available device configurations for this device</li>
+</ol>
+
+
+<p>------------------------------</p>
+
+<p><b>Device Detection of Mobile Device Management System</b></p>
+<ol>
+	<li>Handle check_IMEI requests via diameter(MME &amp; SGSN)</li>
+	<li>Handle check_IMEI requests via sigtran (MSC)</li>
+	<li>Check HLR(if MSISDN is not present)</li>
+	<li>Update MSISDN/IMEI table, Redis (get billing type when adding new record)</li>
+	<li>Update device history table, Redis</li>
+	<li>Automatically send OTA (block-based on logics, limit MSISDN and IMEI combination for a configurable period) - PART 1 </li>
+	<li>Automatically send OTA (block-based on logics, limit MSISDN and IMEI combination for a configurable period) - PART 2</li>
+	<li>Handle device settings request SMS</li>
+	<li>Cloned IMEI detection</li>
+	<li>Show manual OTA configuration steps</li>
+	<li>Manually send OTA SMS</li>
+	<li>OTA download history</li>
+	<li>Device change history</li>
+	<li>Block OTA for subscribers (blacklist automatic OTA sending)</li>
+	<li>Manually send a welcome message</li>
+</ol>
+
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-2050291"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="sumith" id="word_commented_sumith" href="https://support.omobio.net/secure/ViewProfile.jspa?name=sumith">Sumith Gamage</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">07/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2050291"><td bgcolor="#ffffff">
+            <p>Dear <a href="https://support.omobio.net/secure/ViewProfile.jspa?name=deshan.n" class="user-hover" rel="deshan.n">Deshan Navaratne</a>, there are 31 issues over due. Let's close them or update target due dates with estimated pending effort &amp; appropriate assignee to complete them. <a href="https://support.omobio.net:8443/issues/?jql=%22Due%20Date%22%20%3C%20startOfDay()%20and%20assignee%20in%20(deshan.n)%20and%20status%20not%20in%20(%22Work%20Complete%22%2C%20%22D%20O%20N%20E%22%2C%20Reject%2C%20Close%2C%20Closed)%20ORDER%20BY%20cf%5B10300%5D%20ASC" class="external-link" rel="nofollow">https://support.omobio.net:8443/issues/?jql=%22Due%20Date%22%20%3C%20startOfDay()%20and%20assignee%20in%20(deshan.n)%20and%20status%20not%20in%20(%22Work%20Complete%22%2C%20%22D%20O%20N%20E%22%2C%20Reject%2C%20Close%2C%20Closed)%20ORDER%20BY%20cf%5B10300%5D%20ASC</a></p>
+        </td></tr>
+                <tr id="comment-header-2742836"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="deshan.n" id="word_commented_deshan.n" href="https://support.omobio.net/secure/ViewProfile.jspa?name=deshan.n">Deshan Navaratne (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">30/May/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2742836"><td bgcolor="#ffffff">
+            <p>Need to create tickets for client concerns. <br/>
+<a href="https://support.omobio.net/secure/ViewProfile.jspa?name=medani.g" class="user-hover" rel="medani.g">Medani Gunathilaka</a> <a href="https://support.omobio.net/secure/ViewProfile.jspa?name=pathumi.u" class="user-hover" rel="pathumi.u">Pathumi Uduwana</a><a href="https://support.omobio.net/secure/ViewProfile.jspa?name=subhash" class="user-hover" rel="subhash">K.M Subhash Rodrigo</a><a href="https://support.omobio.net/secure/ViewProfile.jspa?name=kanishka.hettiarachchi" class="user-hover" rel="kanishka.hettiarachchi">Kanishka Hettiarachchi</a><br/>
+FYI :<br/>
+DM Module - Client Concerns</p>
+
+<ul>
+	<li>
+	<ul>
+		<li>
+		<ul>
+			<li>DM Module</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+
+<p>1.Add welcome message to setting history<br/>
+2.Fix Send welcome message button size</p>
+
+<p>***DM Module - Device Detection </p>
+
+<p>1.The system should not detect as cloned IMEI when 2 SIMS are associated with 1 IMEI.</p>
+
+<p>2.Check device sim change between dual sim.</p>
+
+<p>3.Check device sim change between 2 devices.</p>
+
+<p>***DM Module - Device Database</p>
+
+<p>1.Update device database write a log of updated devices and newly added devices</p>
+
+<p>2. Sync frequency bands and export frequency bands</p>
+        </td></tr>
+            </table>
+Generated at Mon Nov 14 18:06:40 IST 2022 by Medani Gunathilaka using JIRA 7.3.0#73011-sha1:3c73d0e0b5ea20e2128531b9adf9b0585752b90a.
+
+</body>
+</html>

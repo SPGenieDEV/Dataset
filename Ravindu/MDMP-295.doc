@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#MDMP-295] 4.9 | MDMP | Reports Module |  System Monitoring - (System event details)</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://support.omobio.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [MDMP-295]&nbsp;<a href="https://support.omobio.net/browse/MDMP-295">4.9 | MDMP | Reports Module |  System Monitoring - (System event details)</a>
+            <span class="subText">
+               Created: 11/Jan/22                   &nbsp;Updated: 04/Nov/22
+
+                                    &nbsp;Due: 31/Oct/22
+                                                    &nbsp;Resolved: 04/Nov/22
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">DONE</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://support.omobio.net/secure/BrowseProject.jspa?id=15003">Mobile Device Management Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="MDM - V1.0.0 - Dialog - MDM Platform"
+                href="https://support.omobio.net/issues/?jql=project%3D15003%20AND%20%22fixVersion%22%3D14702%20ORDER%20BY%20priority%20ASC"
+            >MDM - V1.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="medani.g" id="word_reporter_medani.g" href="https://support.omobio.net/secure/ViewProfile.jspa?name=medani.g">Medani Gunathilaka</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="jeyanthan.p" id="word_assignee_jeyanthan.p" href="https://support.omobio.net/secure/ViewProfile.jspa?name=jeyanthan.p">Jeyanthan Priyatharshan</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-156743-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MDMP_Milestone01                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 day
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 4 days, 7 hours, 24 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 4 days, 2 hours
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://support.omobio.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="PNG File">
+                    Monitoring report.PNG &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-Tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-527">MDMP-527</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-527">4.9.1 | MDMP | Reports Module | Syste...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Piyumi Amarakoon  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-528">MDMP-528</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-528">4.9.2 | MDMP | Reports Module | Syste...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Maduranga Kodithuwakku  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-529">MDMP-529</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-529">4.9.3 | MDMP | Reports Module | Syste...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Umesha Ramanayake  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-530">MDMP-530</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-530">4.9.4 | MDMP | Reports Module | Syste...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-531">MDMP-531</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-531">4.9.5 | MDMP | Reports Module | Syste...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-532">MDMP-532</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-532">4.9.6 | MDMP | Reports Module | Syste...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-533">MDMP-533</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-533">4.9.7 | MDMP | Reports Module | Syste...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     Pathumi Uduwana  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-865">MDMP-865</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-865">4.9.8 | MDMP | Reports Module | Syste...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     K.M Subhash Rodrigo  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://support.omobio.net/browse/MDMP-866">MDMP-866</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://support.omobio.net/browse/MDMP-866">4.9.8.1 | MDMP | Reports Module | Sys...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        DONE
+                    </td>
+                    <td>
+                                                     K.M Subhash Rodrigo  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Due Date:</b></td>
+                <td id="customfield_10300-156743-value" class="value" bgcolor="#ffffff" width="80%">            <span title="03/Nov/22 11:36 PM"><time class="livestamp allow-future" datetime="2022-11-03T23:36:00+0530">03/Nov/22 11:36 PM</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_10002-156743-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-2" href="https://support.omobio.net/browse/MDMP-256">
+        4 | MDMP | Reports Module
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10001-156743-value" class="value" bgcolor="#ffffff" width="80%">MDMP Sprint 1.0, MDMP Sprint 1.1</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>1) User Story/Detail</b></p>
+
+<p>(4.9) As an MDM system user, I should be able to search, view, and download the system monitoring report on system event details.</p>
+
+<p><ins><b>Task Summary</b></ins></p>
+<ul>
+	<li>View system monitoring events details report.</li>
+</ul>
+
+
+<hr />
+<p><b>2) Acceptance Criteria</b></p>
+<ol>
+	<li>Upon clicking on the System Monitoring tab, the system user should be able to enter the details for the fields and click on the "SEARCH" button to view system event details.</li>
+	<li>The system user should be able to clear the details in the fields by clicking on the "CLEAR" button.</li>
+	<li>The System Monitoring report should be a table.             </li>
+</ol>
+
+
+<hr />
+<p><b>3) References</b></p>
+
+<p><b><ins>(3.1) UI/UX Reference</ins></b></p>
+<ul>
+	<li>Screen 01- System Monitoring Report Screen                                    URL for the UI-<a href="https://www.figma.com/file/PYYVjVfkEPAl7WGtbDsfMz/MDM-Reports-team-library?node-id=0%3A1" class="external-link" rel="nofollow">MDM-Reports team library – Figma</a></li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://support.omobio.net/secure/attachment/365915/365915_Monitoring+report.PNG" height="483" width="727" style="border: 0px solid black" /></span></p>
+
+<p><b>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</b></p>
+
+<p><b><ins>(3.2) Developer Notes</ins></b></p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </p>
+
+<p><b><ins>(3.3) Requirement Reference</ins></b></p>
+<ul>
+	<li>Requirement received from Subhash</li>
+	<li>Documents submitted for RFQ</li>
+	<li>SoW submitted by Dialog</li>
+	<li>Live demo of the existing product</li>
+</ul>
+
+
+<hr />
+<p><b>4) Definition of Ready</b></p>
+<ol>
+	<li>Requirement Validity -<img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/></li>
+	<li>Finalized Acceptance Criteria -<img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/>   </li>
+	<li>Dependency Clearance - <b>N/A</b></li>
+	<li>Story Confirmation - <img class="emoticon" src="https://support.omobio.net/images/icons/emoticons/check.png" height="16" width="16" align="absmiddle" alt="" border="0"/>  </li>
+</ol>
+
+
+<hr />
+<p><b>5) Definition of Done</b></p>
+<ol>
+	<li>Produced code for required functionalities</li>
+	<li>Peer Code Review and Developer Testing performed</li>
+	<li>The project builds without errors</li>
+	<li>Test cases are written and passing</li>
+	<li>QA was performed &amp; issues resolved</li>
+	<li>The feature is tested against acceptance criteria</li>
+	<li>Feature tested &amp; accepted by Omobio BA</li>
+	<li>Feature accepted by Product Owner (Client)</li>
+</ol>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-2153002"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="piyumi.a" id="word_commented_piyumi.a" href="https://support.omobio.net/secure/ViewProfile.jspa?name=piyumi.a">Piyumi Amarakoon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">22/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2153002"><td bgcolor="#ffffff">
+            <p>API</p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+http:<span class="code-comment">//localhost:1234/web/index.php/report/monitoring/get-event-details</span>
+</pre>
+</div></div>
+<p>Input are not required</p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+    <span class="code-quote">"date_from"</span>:<span class="code-quote">"2022-01-01"</span>,
+    <span class="code-quote">"date_to"</span>:<span class="code-quote">"2022-02-22"</span>,
+    <span class="code-quote">"event_id"</span>:[1,2]
+}
+</pre>
+</div></div>
+<p>Response</p>
+<div class="code panel" style="border-width: 1px;"><div class="codeContent panelContent">
+<pre class="code-java">
+{
+<span class="code-quote">"success"</span>: <span class="code-keyword">true</span>,
+<span class="code-quote">"code"</span>: 0,
+<span class="code-quote">"error"</span>: <span class="code-keyword">null</span>,
+<span class="code-quote">"total"</span>: 0,
+<span class="code-quote">"data"</span>: [
+{
+<span class="code-quote">"event"</span>: <span class="code-quote">"0"</span>,
+<span class="code-quote">"event_count"</span>: <span class="code-quote">"2"</span>,
+<span class="code-quote">"event_name"</span>: <span class="code-quote">"Check IMEI received"</span>
+},
+{
+<span class="code-quote">"event"</span>: <span class="code-quote">"1"</span>,
+<span class="code-quote">"event_count"</span>: <span class="code-quote">"3"</span>,
+<span class="code-quote">"event_name"</span>: <span class="code-quote">"Answer to MSC"</span>
+},
+{
+<span class="code-quote">"event"</span>: <span class="code-quote">"2"</span>,
+<span class="code-quote">"event_count"</span>: <span class="code-quote">"2"</span>,
+<span class="code-quote">"event_name"</span>: <span class="code-quote">"Answer error"</span>
+},
+{
+<span class="code-quote">"event"</span>: <span class="code-quote">"3"</span>,
+<span class="code-quote">"event_count"</span>: <span class="code-quote">"2"</span>,
+<span class="code-quote">"event_name"</span>: <span class="code-quote">"Blacklist device"</span>
+},
+{
+<span class="code-quote">"event"</span>: <span class="code-quote">"4"</span>,
+<span class="code-quote">"event_count"</span>: <span class="code-quote">"1"</span>,
+<span class="code-quote">"event_name"</span>: <span class="code-quote">"MISC error"</span>
+}
+]
+}
+</pre>
+</div></div>
+        </td></tr>
+                <tr id="comment-header-2153006"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="piyumi.a" id="word_commented_piyumi.a" href="https://support.omobio.net/secure/ViewProfile.jspa?name=piyumi.a">Piyumi Amarakoon</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">22/Feb/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-2153006"><td bgcolor="#ffffff">
+            <p><b>Download API</b></p>
+
+<p><a href="http://localhost:1234/web/index.php/report/monitoring/download-event-details" class="external-link" rel="nofollow">http://localhost:1234/web/index.php/report/monitoring/download-event-details</a></p>
+
+<p><b>Inputs are not required</b><br/>
+{<br/>
+    "date_from":"2022-01-01",<br/>
+    "date_to":"2022-02-22",<br/>
+    "event_id":<span class="error">&#91;1,2&#93;</span><br/>
+}<br/>
+<b>response</b><br/>
+{<br/>
+    "success": true,<br/>
+    "code": 0,<br/>
+    "error": null,<br/>
+    "total": 0,<br/>
+    "data": null,<br/>
+    "status_rec": 26<br/>
+}<br/>
+ </p>
+        </td></tr>
+                <tr id="comment-header-3402505"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="deshan.n" id="word_commented_deshan.n" href="https://support.omobio.net/secure/ViewProfile.jspa?name=deshan.n">Deshan Navaratne (Inactive)</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">05/Oct/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-3402505"><td bgcolor="#ffffff">
+            <p><a href="https://support.omobio.net/secure/ViewProfile.jspa?name=pathumi.u" class="user-hover" rel="pathumi.u">Pathumi Uduwana</a>FYI verify as subhash is done with this task </p>
+        </td></tr>
+            </table>
+Generated at Mon Nov 14 20:55:05 IST 2022 by Medani Gunathilaka using JIRA 7.3.0#73011-sha1:3c73d0e0b5ea20e2128531b9adf9b0585752b90a.
+
+</body>
+</html>
